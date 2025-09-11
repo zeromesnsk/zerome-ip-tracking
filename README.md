@@ -1,13 +1,12 @@
-a ZEROME IP Tools
-
-
-!Sceneshot](Screenshot_20250911_140024.jpg)
-
-
+# ZEROME IP Tools
 
 একটি শক্তিশালী IP ম্যানেজমেন্ট এবং সিকিউরিটি টুল।
 
-.  বৈশিষ্ট্যসমূহ
+<p align="center">
+  <img src="Screenshot_20250911_140024.jpg" alt="Screenshot" width="600" style="border-radius:15px; box-shadow:0 4px 12px rgba(0,0,0,0.3);" />
+</p>
+
+## বৈশিষ্ট্যসমূহ
 - IP অ্যাড্রেস তথ্য দেখুন
 - IP ব্লক/আনব্লক করুন
 - IP স্ক্যান করুন
@@ -16,17 +15,11 @@ a ZEROME IP Tools
 ## ইন্সটলেশন
 
 Termux-এ ইন্সটল করতে:
-👇👇
-bash
+
+```bash
 pkg update && pkg upgrade
 pkg install python
-git clone https://github.com/zeromesnsk/zerome-ip-tools.git
+git clone https://github.com/your-username/zerome-tools.git
 cd zerome-tools
 pip install -r requirements.txt
 python zerome_tool.py
-
-
-ব্যবহার
-
-টুলটি চালানোর পর মেনু থেকে options সিলেক্ট করুন 
-
