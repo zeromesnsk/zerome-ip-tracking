@@ -1,6 +1,9 @@
-# ZEROME IP Tracking
+# IP Tracking
 
-একটি শক্তিশালী IP ম্যানেজমেন্ট এবং সিকিউরিটি টুল।
+  
+  #    একটি শক্তিশালী 
+IP ম্যানেজমেন্ট এবং সিকিউরিটি টুল।
+
 
 <p align="center">
   <img src="Screenshot_20250911_140024.jpg" alt="Screenshot" width="600" style="border-radius:15px; box-shadow:0 4px 12px rgba(0,0,0,0.3);" />
@@ -19,7 +22,8 @@ Termux-এ ইন্সটল করতে:
 ```bash
 pkg update && pkg upgrade
 pkg install python
-git clone https://github.com/your-username/zerome-tools.git
-cd zerome-tools
+rm -rf ip-tracking
+git clone https://github.com/zeromesnsk/ip-tracking.git
+cd ip-tracking
 pip install -r requirements.txt
-python zerome_tool.py
+python main.py
